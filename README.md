@@ -8,3 +8,5 @@ This is a small script I created to cache Minecraft body images since the curren
 + Edit config.php
   + add anywhere: $cache_time= 7; // number of days to keep cache before updating...
   + add anywhere: $cache_dir = "cache/users/"; // requires a trailing slash!
++ Edit player.php
+  + Line 70: Edit src to image.php?username=$player
